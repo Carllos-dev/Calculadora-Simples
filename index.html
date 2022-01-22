@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Calculadora </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1> Calculadora </h1>
+    <div class="Corpo">
+<!--definindo a janela e os botoes-->        
+        <form name="Entrada">
+            <input type="text" class="Tela" name="display" disabled><br><br>
+<!--"cal.display.value +='x'" chama os valores para o display-->
+            <input class="First" type="button" value="7" onclick="Entrada.display.value +='7'">
+            <input class="First" type="button" value="8" onclick="Entrada.display.value +='8'">
+            <input class="First" type="button" value="9" onclick="Entrada.display.value +='9'">
+            <input class="Opera" type="button" value="x" onclick="Entrada.display.value +='*'">
+            <br><input class="Second" type="button" value="4" onclick="Entrada.display.value +='4'">
+            <input class="Second" type="button" value="5" onclick="Entrada.display.value +='5'">
+            <input class="Second" type="button" value="6" onclick="Entrada.display.value +='6'">
+            <input class="Opera" type="button" value="÷" onclick="Entrada.display.value +='/'"> 
+            <br><input class="Third" type="button" value="1" onclick="Entrada.display.value +='1'">             
+            <input class="Third" type="button" value="2" onclick="Entrada.display.value +='2'">             
+            <input class="Third" type="button" value="3" onclick="Entrada.display.value +='3'">
+            <input class="Opera" type="button" value="-" onclick="Entrada.display.value +='-'"> 
+            <br><input class="Fourth" type="button" value="0" onclick="Entrada.display.value +='0'">
+            <input class="Fourth" type="button" value="%" onclick="Entrada.display.value +='%'">             
+            <input class="Fourth" type="button" value=" √ " onclick="sq()">
+            <input class="Plus" type="button" value="+" onclick="Entrada.display.value +='+'">
+            <br><input class="Sixth" type="reset" value="DEL" onclick="Entrada.display.value +=''">
+            <input class="Fifth" type="button" value="." onclick="Entrada.display.value +='.'">
+<!--eva(calculator.display.value) uma ferramenta que vai 
+interpretar o valor de entrada como JS e calcular retornando o valor-->
+            <input class="Equal" type="button" value="=" onclick="Entrada.display.value=eval(Entrada.display.value)" id="del">
+        </form>
+    </div>
+
+    <script>
+        function sq(){
+            Entrada.display.value=Math.sqrt(Entrada.display.value);
+        }
+       
+    </script>
+
+</body>
+</html>

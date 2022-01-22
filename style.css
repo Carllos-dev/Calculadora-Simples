@@ -1,0 +1,146 @@
+body {
+    background-color: antiquewhite;
+    display: grid;
+    place-items: center;
+
+}
+h1 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: blue 5px 5px 3px;
+}
+.Corpo {
+    background-color: slategrey;
+    display: grid;
+    place-items: center;
+    border: 13px ridge #1f2024;
+    box-shadow: blue 6px 6px 4px;
+    border-radius: 20px;
+    width: 420px; 
+    height: 410px;   
+}
+
+.Tela {
+    background-color: snow;
+    border: 2.1px solid #1f2024;
+    border-radius: 25px;
+    display: grid;
+    font-size: 26.2px;
+    color: #1f2024;
+    position: relative;
+    bottom: 8px;
+    margin: 10px 5px 0px 5px;
+    width: 114%;
+    left: -34px;
+    height: 90px;
+}
+
+.First {
+    border-radius: 30%;
+    position: relative;
+    bottom: 42.9px;
+    width: 85px;
+    height: 60px;
+    left: -15px;
+    font-size: 20px;
+    color: white;
+    background-color: #1f2024;
+    
+}
+
+.Second {
+    border-radius: 30%;
+    position: relative;
+    bottom: 43px;
+    width: 85px;
+    height: 60px;
+    left: -15px;
+    font-size: 20px;
+    color: white;
+    background-color: #1f2024;    
+}
+
+.Third {
+    border-radius: 30%;
+    position: relative;
+    bottom: 42px;
+    width: 85px;
+    height: 60px;
+    left: -15px;
+    font-size: 20px;
+    color: white;
+    background-color: #1f2024;
+}
+
+.Fourth {
+    border-radius: 30%;
+    position: relative;
+    bottom: 72px;
+    width: 85px;
+    height: 60px;
+    left: -15px;
+    font-size: 20px;
+    color: white;
+    background-color: #1f2024;
+}
+
+.Fifth {
+    border-radius: 30%;
+    position: relative;
+    bottom: 102px;
+    width: 85px;
+    height: 60px;
+    left: -15px;
+    font-size: 20px;
+    color: white;
+    background-color: #1f2024;
+}
+
+.Sixth {
+    border-radius: 30%;
+    position: relative;
+    bottom: 102px;
+    width: 85px;
+    height: 60px;
+    left: -15px;
+    font-size: 20px;
+    color: white;
+    background-color: red;
+}
+.Equal {
+    border-radius: 30%;
+    position: relative;
+    bottom: 102px;
+    width: 85px;
+    height: 60px;
+    left: -15px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(15, 228, 15);
+}
+
+.Opera {
+    border-radius: 30%;
+    position: relative;
+    margin-bottom: 1.5px;
+    bottom: 42.2px;
+    width: 90px;
+    height: 61px;
+    left: 8px;
+    font-size: 21px;
+    color: white;
+    background-color: #1f2024;
+}
+
+.Plus {
+    border-radius: 30%;
+    position: relative;
+    margin-bottom: 1.5px;
+    bottom: 42px;
+    width: 90px;
+    height: 120px;
+    left: 8px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(29, 29, 247);
+}
